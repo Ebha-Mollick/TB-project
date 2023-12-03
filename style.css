@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:ital,wght@0,200;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Black+Han+Sans&family=Montserrat:ital,wght@0,200;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Bitter&family=Black+Han+Sans&family=Montserrat:ital,wght@0,200;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Bitter&family=Black+Han+Sans&family=Black+Ops+One&family=Montserrat:ital,wght@0,200;0,400;1,300&display=swap');
+
+body{
+    background-color: rgb(236,218,194);
+}
+/* body   
+{  
+    height: 125px;  
+    margin-top: 80px;  
+    padding: 900px;  
+    padding-top: 0px;
+    font-family: sans-serif;  
+}   */
+header {  
+    background-color: white;  
+    position: fixed;  
+    left:0;  
+    right: 0;  
+    top: 0px;  
+    height: 45px;  
+    display: flex;  
+    align-items: center;
+    justify-content: end;  
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    text-shadow: 0px 5px 5px  rgba(128, 128,128, 0.5);
+      
+}  
+header * {  
+    display: inline;  
+}  
+header li {  
+    margin: 30px;  
+}  
+
+.logo {
+    display: inline;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    /* margin-right: 20px; */
+    margin-top: 15px;
+    margin-right: 640px;
+    
+    
+}
+
+.heading{
+    color: rgb(64,66,66);
+    text-align: left;
+    padding-top:20px;
+    /* padding-right: 1100px; */
+    font-size: 50px;
+    padding-left: 15px;
+    font-family: 'Black Han Sans', sans-serif;
+    text-shadow: 0px 15px 5px  rgba(128, 128,128, 0.5);
+    /* -webkit-text-stroke: 0.1px black; */
+}
+.text{
+    padding-left: 15px;
+    font-size: 22px;
+    font-style: initial;
+    font-family: 'BIZ UDMincho', serif;
+
+}
+.Download{
+    width: 130px;
+    height: 14px;
+    margin: 10px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgb(118, 217, 83);
+    margin-left: 200px;
+    border-radius: 28px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Black Ops One',sans-serif;
+    font-size: 18px;
+    
+}
+.Download :hover{
+    color: white;
+
+}
+.explore{
+    color: rgb(64,66,66);
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'Black Han Sans', sans-serif;
+    -webkit-text-stroke: 1px rgb(249,202,202);
+    text-shadow: 0px 7px 7px  rgba(128, 128,128, 0.5);
+    
+}
+.world{
+    color: rgb(64,66,66);
+    padding-left: 34px;
+    font-size:40px;
+    font-family: 'Black Han Sans', sans-serif;
+    -webkit-text-stroke: 1px rgb(249,202,202);
+    text-shadow: 0px 7px 7px  rgba(128, 128,128, 0.5);
+}
+.music{
+    color: rgb(64,66,66);
+    padding-left:89px;
+    font-size: 40px;
+    font-family: 'Black Han Sans', sans-serif;
+    -webkit-text-stroke: 1px rgb(249,202,202);
+    text-shadow: 0px 7px 7px  rgba(128, 128,128, 0.5);
+}
+.content{
+    padding-left:15px;
+    padding-top: 30px;
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 17px;
+
+}
+.main_box{
+    width: 1100px;
+    height: 1200px;
+    border: solid black 23px;
+    background-color: grey;
+    /* margin-left: 20px; */
+    margin-top: 68px;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 120px;
+    box-shadow: 12px 12px 2px 1px rgba(128,128,128,0.4);
+}
+.money{
+    font-size: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top: -550px;
+    font-family: 'Black Han Sans', sans-serif;
+    color: rgba(118, 217, 83,0.4);
+    -webkit-text-stroke: 3px black;
+
+}
+.photo{
+    padding-bottom: 50px;
+    padding-right: 130px;
+    padding-top: 1px;
+}
+.img1{
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.img2{
+    margin-top: -500px;
+    margin-left: 560px;
+}
+.img3{
+    margin-top: -305px;
+    margin-left: 820px;
+}
+.img4{
+
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 280px;
+}
+.img5{
+    height: 600px;
+    width: 520px;
+    margin-left: 563px;
+    margin-top: -785px;
+}
+.lofi{
+    color:white;
+    margin-left: 828px;
+    margin-top: 10px;
+    font-size: 43px;
+    font-family: 'Black Han Sans', sans-serif;
+    -webkit-text-stroke: 2px black ;
+}
+.broken{
+    color: white;
+    font-size:43px ;
+    margin-left: 80px;
+    margin-top: 5px;
+    font-family: 'Black Han Sans', sans-serif;
+    -webkit-text-stroke: 2px black;
+    display: inline-block;
+}
+
+.he{
+    color: white;
+    font-size:43px ;
+    margin-left: 80px;
+    margin-top: 5px;
+    font-family: 'Black Han Sans', sans-serif;
+    -webkit-text-stroke: 2px black;
+    display: inline-block;
+    margin: 0;
+    
+}
+.a{
+    color: rgb(113, 9, 9);
+    font-size:43px ;
+    margin-left: 80px;
+    margin-top: 5px;
+    font-family: 'Black Han Sans', sans-serif;
+    -webkit-text-stroke: 2px black;
+    display: inline-block;
+    margin: 0;
+    
+}
+.rt{
+    color: white;
+    font-size:43px ;
+    margin-left: 80px;
+    margin-top: 5px;
+    font-family: 'Black Han Sans', sans-serif;
+    -webkit-text-stroke: 2px black;
+    display: inline-block;
+    margin: 0;
+    
+}
+.play{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 250px;
+}
